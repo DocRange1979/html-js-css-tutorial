@@ -1,0 +1,10 @@
+.body_class {
+    background-color: aquamarine;
+}
+
+#first_title {
+    background-color: azure;
+}
+
+/* This is suppose to be a comment */
+/* IDs can only be used once, classes, a lot of times */
