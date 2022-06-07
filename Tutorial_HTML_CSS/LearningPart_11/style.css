@@ -1,0 +1,16 @@
+header {
+    background: #333;
+    color: white;
+}
+
+body {
+    color: #333;
+    background: white;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* margin is for the space out of the box
+   padding is for the space inside the box
+   width is for how wide you want the box */
