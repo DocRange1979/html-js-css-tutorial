@@ -1,0 +1,18 @@
+header {
+    width: 100px;
+    
+    border-color: yellow;
+    border-width: 20px;
+    border-style: solid;
+    
+    padding: 20px;
+    margin: 20px; 
+}
+
+main {
+    padding: 20px;
+    border: solid yellow 20px ;
+}
+
+/*Borders work totally similar to the margins and paddings, also you can just 
+  work with one or two sides however you want*/
