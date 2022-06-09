@@ -1,0 +1,26 @@
+header {
+    background-color: darkgray;
+    color: azure;
+    text-align: center;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+}
+
+.image {
+    width: 600px;
+}
+
+main {
+    background-color: lightblue;
+    width: 600px;
+    padding: 20px;
+    border: solid 5px red;
+}
+
+footer {
+    background-color: darkblue;
+    color: #f2f2f2bc;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 25px;
+}
