@@ -1,2 +1,2 @@
 # Learning HTML
-Learning how to use HTML and CSS
+Learning how to use HTML and CSS, everything studied in Scrimba.
