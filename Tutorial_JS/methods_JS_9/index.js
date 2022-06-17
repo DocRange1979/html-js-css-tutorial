@@ -13,3 +13,18 @@ userName = userName.toLowerCase();  // Take everything lower case
 phoneNumber = phoneNumber.replaceAll("-","");
 
 console.log(phoneNumber);
+
+// There a special one called slice()
+
+let fullName = "Eduardo Rojas";
+let firstName;
+let lastName;
+
+//firstName = fullName.slice(0, 7);
+//lastName = fullName.slice(8);
+
+firstName = fullName.slice(0, fullName.indexOf(" "));
+lastName = fullName.slice(fullName.indexOf(" "));
+
+console.log(firstName);
+console.log(lastName);
