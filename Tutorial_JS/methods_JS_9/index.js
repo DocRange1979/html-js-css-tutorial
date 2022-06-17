@@ -13,9 +13,9 @@ userName = userName.toLowerCase();  // Take everything lower case
 phoneNumber = phoneNumber.replaceAll("-","");
 
 console.log(phoneNumber);
-
+//
 // There a special one called slice()
-
+//
 let fullName = "Eduardo Rojas";
 let firstName;
 let lastName;
@@ -28,3 +28,12 @@ lastName = fullName.slice(fullName.indexOf(" "));
 
 console.log(firstName);
 console.log(lastName);
+//
+// Also you can do method chaining
+//
+
+// This concadenates methods in one string
+userName = "bro";
+
+let letter = userName.charAt(0).toUpperCase().trim();
+console.log(letter)
