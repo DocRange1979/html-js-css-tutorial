@@ -16,4 +16,7 @@ else{
     console.log("The weather is good!");
 }
 
-// 
+// Also we have the ! Not logical operator
+
+// It just checks if setting a ! in front of anything that you want to invert
+// Ex: !(temp = 0) will search for anything that is not zero
