@@ -5,3 +5,12 @@ while(userName == "" || userName == null){
 }
 
 console.log("Hello", userName);
+
+// do while loops on JS, does the code once, if false, then keeps repeating
+// while loops if condition is false from the beginning it does not do the loop
+
+do{
+    userName = window.prompt("Enter your name");
+}while(userName == "")
+
+console.log("Hello", userName);
