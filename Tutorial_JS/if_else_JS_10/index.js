@@ -13,3 +13,15 @@ else if(age < 0){
 else{
     console.log("You are a child!");
 }
+
+// check method
+
+document.getElementById("myButton").onclick = function(){
+    const myCheckBox = document.getElementById("myCheckBox");
+    if(myCheckBox.checked){
+        console.log("you are subscribed!");
+    }
+    else{
+        console.log("you are not subscribed")
+    }
+}
