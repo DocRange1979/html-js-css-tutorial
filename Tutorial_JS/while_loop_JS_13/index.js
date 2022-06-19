@@ -14,3 +14,11 @@ do{
 }while(userName == "")
 
 console.log("Hello", userName);
+
+// for loop, normally you can use i instead of counter
+
+for(let counter = 1; counter <= 10; counter += 1){
+    console.log(counter);
+}
+
+console.log("HAPPY NEW YEAR!");
