@@ -22,3 +22,12 @@ for(let counter = 1; counter <= 10; counter += 1){
 }
 
 console.log("HAPPY NEW YEAR!");
+
+// adding more information, we have break and continue, break takes out of a loop, and continue just jumps that part of the loop
+
+for(let i=1; i <= 20; i+=1){
+    if(i == 13){
+        continue;                 // If I write break, it will stop the loop
+    }
+    console.log(i);
+}
