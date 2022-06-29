@@ -26,3 +26,11 @@ for(let i = 0; i < prices.length; i+=1){
 for(let price of prices){
     console.log(price);
 }
+// Sort arrays
+
+fruits = fruits.sort();
+fruits = fruits.sort().reverse();
+
+for(let fruit of fruits){
+    console.log(fruit);
+}
