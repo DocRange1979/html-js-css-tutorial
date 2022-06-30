@@ -34,3 +34,10 @@ fruits = fruits.sort().reverse();
 for(let fruit of fruits){
     console.log(fruit);
 }
+
+// spread operator = allows an iterable sch as an array or string to be expanded in places where zero or more
+//                   arguments are expected (unpacked elements)
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let maximum = Math.max(...numbers);  // The spread operator is the ...
+console.log(maximum);
